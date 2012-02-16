@@ -10,6 +10,8 @@ License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    gtk2-devel	 
+BuildRequires:    pkgconfig(libglade-2.0)
 %rename R-cran-RGtk2
 
 %description
