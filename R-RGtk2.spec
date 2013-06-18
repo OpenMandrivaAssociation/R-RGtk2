@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.20.25
-Release:          1
+Release:          2
 Summary:          R bindings for Gtk 2.8.0 and above
 Group:            Sciences/Mathematics
 License:          GPL
